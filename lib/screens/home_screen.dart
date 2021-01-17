@@ -42,7 +42,7 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromRGBO(164, 135, 231, 1),
+      backgroundColor: Colors.blue,
       body: Padding(
         padding: EdgeInsets.all(12),
         child: Column(
@@ -92,13 +92,13 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 Button(
                   text: '%',
-                  fillColor:  Color.fromRGBO(220, 209, 240, 1),
+                  fillColor:  Color.fromRGBO(229, 243, 255, 1),
                   textColor: Colors.black,
                   callback: numClick,
                 ),
                 Button(
                   text: '/',
-                  fillColor:  Color.fromRGBO(220, 209, 240, 1),
+                  fillColor:  Color.fromRGBO(229, 243, 255, 1),
                   textColor: Colors.black,
                   callback: numClick,
                 ),
@@ -124,7 +124,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 Button(
                   text: '*',
-                  fillColor:  Color.fromRGBO(220, 209, 240, 1),
+                  fillColor:  Color.fromRGBO(229, 243, 255, 1),
                   textColor: Colors.black,
                   callback: numClick,
                 ),
@@ -150,7 +150,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 Button(
                   text: '-',
-                  fillColor:  Color.fromRGBO(220, 209, 240, 1),
+                  fillColor:  Color.fromRGBO(229, 243, 255, 1),
                   textColor: Colors.black,
                   callback: numClick,
                 ),
@@ -176,7 +176,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 Button(
                   text: '+',
-                  fillColor:  Color.fromRGBO(220, 209, 240, 1),
+                  fillColor:  Color.fromRGBO(229, 243, 255, 1),
                   textColor: Colors.black,
                   callback: numClick,
                 ),
@@ -202,7 +202,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 Button(
                   text: '=',
-                  fillColor:  Color.fromRGBO(220, 209, 240, 1),
+                  fillColor:  Color.fromRGBO(229, 243, 255, 1),
                   textColor: Colors.black,
                   callback: evaluate,
                 ),
