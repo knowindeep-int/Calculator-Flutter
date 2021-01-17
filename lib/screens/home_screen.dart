@@ -49,7 +49,6 @@ class _HomeScreenState extends State<HomeScreen> {
           mainAxisAlignment: MainAxisAlignment.end,
           children: <Widget>[
             Container(
-              child: Padding(
                 padding: const EdgeInsets.only(right: 12),
                 child: Text(
                   _previous,
@@ -60,11 +59,9 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                   ),
                 ),
-              ),
               alignment: Alignment.centerRight,
             ),
             Container(
-              child: Padding(
                 padding: const EdgeInsets.all(12),
                 child: Text(
                   _now,
@@ -75,7 +72,6 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                   ),
                 ),
-              ),
               alignment: Alignment.centerRight,
             ),
             SizedBox(height: 40),
