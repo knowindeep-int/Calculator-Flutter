@@ -74,7 +74,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               alignment: Alignment.centerRight,
             ),
-            SizedBox(height: 40),
+            Divider(thickness: 1),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: <Widget>[
